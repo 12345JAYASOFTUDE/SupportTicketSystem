@@ -5,6 +5,9 @@
     flex-direction: column;
     height: 100vh; /* Full viewport height */
 }
+.containerR{
+    margin-top: 5px;
+}
 
 /* Navbar styling */
 .navbar {
@@ -36,7 +39,7 @@
     cursor: pointer;
     position: fixed; /* Fixed position */
     right: 20px; /* Position to the right side */
-    bottom: 20px; /* Position from the bottom */
+    top: 80px; /* Position from the bottom */
     z-index: 1000; /* Ensure it's above other content */
 }
 

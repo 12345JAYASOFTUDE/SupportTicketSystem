@@ -23,6 +23,7 @@ mongoose.connect(MONGOURL)
   .catch((error) => console.log(error));
 
 app.use(bodyParser.json());
+app.use(bodyParser.urlencoded({extended:true}))
 app.use(cors());
 app.use('/auth', AuthRouter);
 app.use('/tickets', TicketRouter);
